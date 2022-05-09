@@ -1,0 +1,61 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  display: flex;
+  flex-wrap: wrap;
+  justify-items: center;
+  min-height: 100vh;
+  width: 100%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: var(--bgColor);
+  color: var(--txtColor);
+}
+
+
+:root {
+  --primaryColor: #ffc800;
+  --bgColor: #15202b;
+  --txtColor: #DDDDDD;
+  --headerColor: #0d1721;
+}
+
+a {
+  text-decoration: none;
+  color: var(--txtColor);
+}
+
+header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--headerColor);
+}
+.logo{
+  font-size: 2em;
+  color: var(--primaryColor);
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 900;
+  user-select: none;
+  letter-spacing: 4px;
+}
+main {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+
+#videoElm {
+  width: 80%;
+  height: 80vh;
+  background-color: var(--txtColor);
+}
+
